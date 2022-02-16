@@ -1,0 +1,546 @@
+/* &display=swap*/
+@import url(null.css);
+
+@import url("https://fonts.googleapis.com/css?family=Balsamiq+Sans:400,italic,700,700italic&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Alegreya+Sans:400,italic,700,700italic,900,900italic&display=swap");
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,italic,500,500italic,600,600italic,700,700italic&display=swap");
+
+/* font-family: 'Alegreya Sans', sans-serif;
+font-family: 'Balsamiq Sans', cursive;
+font-family: 'IBM Plex Mono', monospace; */
+
+body {
+	font-family: "Alegreya Sans", sans-serif;
+	background: url("../img/22222222222.jpg") center / cover fixed;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	margin: 0 auto;
+	max-width: 1000px;
+	background: url("../img/44444444444444444.jpg") 0 0 / cover fixed;
+}
+
+.title {
+	margin: 30px 0px 30px 0px;
+	font-size: 55px;
+	font-weight: 900;
+	text-align: center;
+}
+
+.menu {
+	margin: 0px 0px 30px 0px;
+}
+
+ul.list {
+	margin: 0px 0px 0px 30px;
+	color: blue;
+	text-transform: capitalize;
+	font-style: italic;
+	font-weight: 900;
+	text-decoration: underline;
+}
+
+.list-menu {
+	font-family: "Balsamiq Sans", cursive;
+	font-size: 20px;
+	padding: 0px 0px 0px 30px;
+	margin: 0px 0px 5px 0px;
+	background: url("../img/check.svg") 0px 1px / 17px no-repeat;
+}
+
+.title-image {
+	font-family: "IBM Plex Mono", monospace;
+	font-size: 35px;
+	font-weight: 500;
+	font-style: italic;
+	text-align: center;
+	color: rgb(122, 180, 214);
+	margin: 0px 0px 30px 0px;
+}
+.block {
+	margin: 0px 0px 0px 30px;
+}
+
+.sub-title-image {
+	font-size: 25px;
+	font-weight: 700;
+	color: rgb(41, 143, 1);
+	padding: 0px 0px 0px 30px;
+	text-decoration: underline;
+	margin: 0px 0px 30px 0px;
+}
+
+.block__image {
+	width: 800px;
+	height: 300px;
+	border: 3px solid #000;
+	border-radius: 30px;
+	background: url("../img//naruto.jpg");
+	margin: 0px 0px 30px 0px;
+}
+
+.title-gradient {
+	font-size: 25px;
+	color: hotpink;
+	text-transform: uppercase;
+	margin: 0px 0px 30px 0px;
+}
+
+.block__gradient {
+	width: 800px;
+	height: 300px;
+	border: 3px dashed rgb(0, 207, 86);
+	border-radius: 30px;
+	margin: 0px 0px 30px 0px;
+	background: linear-gradient(90deg, rgba(0, 36, 34, 1) 0%, rgba(84, 9, 121, 1) 35%, rgba(255, 231, 0, 1) 93%);
+}
+
+.title-repeat {
+	font-family: "IBM Plex Mono", monospace;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 25px;
+	color: grey;
+	letter-spacing: 10px;
+	text-decoration: overline;
+	padding: 0px 0px 0px 25px;
+	margin: 0px 0px 30px 0px;
+}
+
+.block__repeats {
+	margin: 0px 0px 0px 30px;
+}
+
+.title-norepeat {
+	font-size: 30px;
+	color: darkorange;
+	font-weight: 900;
+	padding: 0px 0px 0px 30px;
+	margin: 0px 0px 30px 0px;
+}
+
+.block__norepeat {
+	width: 800px;
+	height: 300px;
+	border: 3px dotted rgb(0, 21, 207);
+	border-radius: 20px;
+	margin: 0px 0px 30px 0px;
+	background: url("../img/naruto.jpg") no-repeat;
+}
+
+.title-repeat-x {
+	font-size: 50px;
+	text-decoration: line-through;
+	text-transform: capitalize;
+	color: darkturquoise;
+	text-shadow: 5px -8px 3px rgb(4, 72, 150);
+	margin: 0px 0px 30px 0px;
+}
+
+.block__repeat_x {
+	width: 800px;
+	height: 300px;
+	border: 3px solid rgb(0, 133, 99);
+	border-radius: 20px;
+	background: url("../img/naruto.jpg") repeat-x;
+	margin: 0px 0px 30px 0px;
+}
+
+.title-repeat-y {
+	font-family: "Balsamiq Sans", cursive;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 25px;
+	color: red;
+	text-align: center;
+	margin: 0px 0px 30px 0px;
+}
+
+.block__repeat_y {
+	width: 500px;
+	height: 800px;
+	border: 3px dotted rgb(112, 100, 33);
+	border-radius: 20px;
+	background: url("../img/naruto.jpg") repeat-y;
+	margin: 0px 0px 30px 0px;
+	box-shadow: 25px -30px 3px rgba(136, 0, 214, 0.678);
+}
+
+.title-space {
+	font-size: 30px;
+	font-weight: 900;
+	color: blue;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0px 0px 30px 0px;
+}
+
+.block__space {
+	width: 800px;
+	height: 400px;
+	border: 10px solid rgb(30, 255, 0);
+	border-radius: 20px;
+	background: url("../img/naruto.jpg") space;
+	margin: 0px 0px 30px 0px;
+}
+
+.title-round {
+	font-style: italic;
+	color: greenyellow;
+	font-size: 37px;
+	text-decoration: line-through;
+	box-shadow: inset 3px 3px 10px 40px rgb(34, 37, 49);
+	margin: 0px 0px 30px 0px;
+}
+
+.block__round {
+	width: 900px;
+	height: 700px;
+	border: 5px solid rgb(77, 11, 47);
+	border-radius: 20px;
+	background: url("../img/naruto.jpg") round;
+	margin: 0px 0px 30px 0px;
+}
+
+.title-position {
+	font-size: 67px;
+	text-transform: capitalize;
+	color: lightseagreen;
+	letter-spacing: 3px;
+	box-shadow: inset 3px 3px 10px 40px rgb(187, 117, 25);
+	margin: 0px 0px 30px 0px;
+}
+
+.block__position {
+}
+.title-position-left {
+	text-align: center;
+	font-size: 45px;
+	text-decoration: overline;
+	color: red;
+	text-shadow: -30px -20px 5px rgb(25, 0, 70);
+	margin: 0px 0px 30px 0px;
+}
+
+.block__left {
+	width: 800px;
+	height: 400px;
+	border: 5px dashed rgb(16, 190, 0);
+	border-radius: 20px;
+	background: url("../img/saske.png") left no-repeat;
+	margin: 0px 0px 30px 0px;
+}
+
+.title-position-middle {
+	font-size: 45px;
+	font-style: italic;
+	color: darkkhaki;
+	text-align: center;
+	text-decoration: underline;
+	margin: 0px 0px 30px 0px;
+}
+
+.block__middle {
+	width: 800px;
+	height: 400px;
+	border: 5px dashed rgb(30, 43, 219);
+	border-radius: 30px;
+	box-shadow: 5px -20px 5px rgb(217, 255, 0);
+	background: url("../img/saske.png") center no-repeat;
+	margin: 0px 0px 30px 0px;
+}
+
+.title-position-corner {
+	font-size: 32px;
+	letter-spacing: -2px;
+	color: rgb(51, 211, 211);
+	line-height: 2;
+	text-align: right;
+	margin: 0px 0px 30px 0px;
+}
+
+.block__corner {
+	width: 800px;
+	height: 400px;
+	border: 5px dotted rgb(81, 112, 126);
+	background: url("../img/saske.png") bottom right no-repeat;
+	margin: 0px 0px 30px 0px;
+}
+
+.title-attachment {
+	font-family: "IBM Plex Mono", monospace;
+	font-weight: 600;
+	font-style: italic;
+	font-size: 43px;
+	color: rgb(0, 255, 13);
+	text-shadow: 3px 5px 3px rgb(129, 0, 129);
+	padding: 0px 0px 0px 30px;
+	margin: 0px 0px 30px 0px;
+}
+
+.title-scroll {
+	font-weight: 900;
+	font-size: 40px;
+	font-style: italic;
+	margin: 0px 0px 30px 0px;
+}
+
+.block__scroll {
+	width: 800px;
+	height: 400px;
+	border: 7px solid rgb(109, 93, 4);
+	background: url("../img/narutoteamjpg.jpg") 0 0 no-repeat scroll;
+	margin: 0px 0px 30px 0px;
+}
+
+.title-fixed {
+	font-weight: 900;
+	font-size: 40px;
+	font-style: italic;
+	margin: 0px 0px 30px 0px;
+}
+
+.block__fixed {
+	width: 800px;
+	height: 400px;
+	border: 7px solid rgb(23, 81, 168);
+	background: url("../img/narutofox.jpg") 0 0 no-repeat fixed;
+	margin: 0px 0px 30px 0px;
+}
+
+.title-local {
+	font-weight: 900;
+	font-size: 40px;
+	font-style: italic;
+	margin: 0px 0px 30px 0px;
+}
+
+.block__local {
+	width: 900px;
+	height: 200px;
+	border: 7px solid rgb(23, 81, 168);
+	overflow: scroll;
+	background: url("../img/kakashi.jpg") 0 0 no-repeat local;
+	margin: 0px 0px 30px 0px;
+}
+
+.title-size {
+	text-align: center;
+	font-size: 30px;
+	color: blue;
+	text-shadow: -2px -3px 3px rgb(7, 3, 51);
+	margin: 0px 0px 30px 0px;
+}
+
+.title-contain {
+	font-family: "Balsamiq Sans", cursive;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 30px;
+	text-align: center;
+	color: red;
+	margin: 0px 0px 30px 0px;
+}
+
+.block__contain {
+	width: 800px;
+	height: 400px;
+	border: 5px solid rgb(1, 85, 15);
+	border-radius: 20px 40px 20px 40px;
+	background: url("../img/pain.jpg") 0 0 / contain no-repeat;
+	margin: 0px 0px 30px 0px;
+}
+
+.title-cover {
+	font-family: "Balsamiq Sans", cursive;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 30px;
+	text-align: center;
+	color: red;
+	margin: 0px 0px 30px 0px;
+}
+
+.block__cover {
+	width: 800px;
+	height: 400px;
+	border: 5px solid rgb(1, 85, 15);
+	border-radius: 20px 40px 20px 40px;
+	background: url("../img/pain.jpg") 0 0 / cover no-repeat;
+	margin: 0px 0px 30px 0px;
+}
+
+.title-width {
+	font-family: "Balsamiq Sans", cursive;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 30px;
+	text-align: center;
+	color: red;
+	margin: 0px 0px 30px 0px;
+}
+
+.block__width {
+	width: 950px;
+	height: 400px;
+	border: 5px solid rgb(1, 85, 15);
+	border-radius: 20px 40px 20px 40px;
+	background: url("../img/pain.jpg") 0 0 / 100% auto no-repeat;
+	margin: 0px 0px 30px 0px;
+}
+
+.title-height {
+	font-family: "Balsamiq Sans", cursive;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 30px;
+	text-align: center;
+	color: red;
+	margin: 0px 0px 30px 0px;
+}
+
+.block__height {
+	width: 900px;
+	height: 900px;
+	border: 5px solid rgb(1, 85, 15);
+	border-radius: 20px 40px 20px 40px;
+	background: url("../img/pain.jpg") 0 0 / auto 100% no-repeat;
+	margin: 0px 0px 30px 0px;
+}
+
+.title-stretch {
+	font-family: "Balsamiq Sans", cursive;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 30px;
+	text-align: center;
+	color: red;
+	margin: 0px 0px 30px 0px;
+}
+
+.block__stretch {
+	width: 1000px;
+	height: 1000px;
+	border: 5px solid rgb(1, 85, 15);
+	border-radius: 20px 40px 20px 40px;
+	background: url("../img/pain.jpg") 0 0/100% 100% no-repeat;
+	margin: 0px 0px 30px 0px;
+}
+
+.title-size-in {
+	font-family: "Balsamiq Sans", cursive;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 30px;
+	text-align: center;
+	color: red;
+	margin: 0px 0px 30px 0px;
+}
+
+.block__size__in {
+	width: 900px;
+	height: 800px;
+	border: 5px solid rgb(1, 85, 15);
+	border-radius: 20px 40px 20px 40px;
+	background: url("../img/pain.jpg") 0 0/ 557px 488px no-repeat;
+	margin: 0px 0px 30px 0px;
+}
+
+.title-allsize {
+	font-size: 32px;
+	letter-spacing: -2px;
+	color: rgb(51, 211, 211);
+	line-height: 2;
+	text-decoration: underline;
+	padding: 0px 0px 0px 50px;
+	margin: 0px 0px 30px 0px;
+}
+
+.title-color-size {
+	font-size: 32px;
+	letter-spacing: -2px;
+	color: rgb(30, 91, 224);
+	line-height: 2;
+	padding: 0px 0px 0px 50px;
+	margin: 0px 0px 30px 0px;
+}
+
+.block__picture_color {
+	width: 800px;
+	height: 400px;
+	border: 5px solid rgb(1, 85, 15);
+	border-radius: 20px 40px 20px 40px;
+	background: rgb(240, 252, 134) url("../img/itachi.png") no-repeat;
+	margin: 0px 0px 30px 0px;
+}
+
+.title-two-pick {
+	font-size: 32px;
+	letter-spacing: -2px;
+	color: rgb(30, 91, 224);
+	line-height: 2;
+	padding: 0px 0px 0px 50px;
+	margin: 0px 0px 30px 0px;
+}
+
+.block__two__picture {
+	width: 1000px;
+	height: 800px;
+	border: 5px solid rgb(1, 85, 15);
+	border-radius: 20px 40px 20px 40px;
+	background: url("../img/konanjpg.jpg") left bottom no-repeat, url("../img/naruuuuttooo.jpg");
+	margin: 0px 0px 30px 0px;
+}
+
+.title-three-pick {
+	font-size: 32px;
+	letter-spacing: -2px;
+	color: rgb(30, 91, 224);
+	line-height: 2;
+	padding: 0px 0px 0px 50px;
+	margin: 0px 0px 30px 0px;
+}
+
+.block__three__pick {
+	width: 1000px;
+	height: 800px;
+	border: 5px solid rgb(1, 85, 15);
+	border-radius: 20px 40px 20px 40px;
+	background: url("../img/madara.png") top right no-repeat, url("../img/konanjpg.jpg") left bottom no-repeat, url("../img/naruuuuttooo.jpg");
+	margin: 0px 0px 30px 0px;
+}
+
+.title-four-pick {
+	font-size: 32px;
+	letter-spacing: -2px;
+	color: rgb(30, 91, 224);
+	line-height: 2;
+	padding: 0px 0px 0px 50px;
+	margin: 0px 0px 30px 0px;
+}
+
+.block__four__pick {
+	width: 1000px;
+	height: 800px;
+	border: 5px solid rgb(1, 85, 15);
+	border-radius: 20px 40px 20px 40px;
+	background: url("../img/hashirama.png") 40% 60% no-repeat, url("../img/madara.png") top right no-repeat, url("../img/konanjpg.jpg") left bottom no-repeat, url("../img/naruuuuttooo.jpg");
+	margin: 0px 0px 30px 0px;
+}
+.footer {
+	margin: 0px 0px 30px 0px;
+}
+
+.footer-text {
+	display: inline-block;
+	width: 100px;
+	background-color: rgb(110, 77, 4);
+	margin: 0px 0px 0px 30px;
+}
+.link {
+	display: block;
+	text-align: center;
+	font-size: 25px;
+}
